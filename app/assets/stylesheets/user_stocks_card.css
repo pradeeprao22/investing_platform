@@ -1,0 +1,178 @@
+.user-stocks-card {
+  position: fixed;
+  top: 70px;
+  right: 100px;
+  bottom: 10px;
+  width: 275px;
+  background-color: white;
+  overflow-y: scroll;
+  box-shadow: -1px 4px 18px #c4c4c4;
+  border-radius: 2px;
+  text-align: center;
+  padding: 0;
+  z-index: 999;
+  -ms-overflow-style: none;
+}
+
+.user-stocks-card::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.user-stocks-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  float: left;
+  font-weight: 100;
+  margin-left: 15px;
+  padding-top: 10px;
+}
+
+.user-stocks-break-line {
+  width: 100%;
+  display: block;
+  border: none;
+  height: 1px;
+  background: #f2f2f2;
+  background: -webkit-gradient(
+    radial,
+    50% 50%,
+    0,
+    50% 50%,
+    350,
+    from(#f2f2f2),
+    to(white)
+  );
+}
+
+.order-index-item {
+  height: 60px;
+}
+
+.order-index-item:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.order-index-item-img {
+  max-height: 45px;
+  float: left;
+  border-radius: 15px;
+  padding-top: 3px;
+}
+
+.order-index-item-athlete-info {
+  display: inline-block;
+  margin: auto;
+  margin-top: 15px;
+  font-size: 13px;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+}
+
+.order-index-item-athlete-name {
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: 100;
+}
+
+.order-index-item-athlete-team {
+  padding-top: 5px;
+  font-size: 11px;
+  margin-top: 1px;
+  font-weight: 100;
+}
+.user-stocks-item-price {
+  float: right;
+  margin-right: 17px;
+  font-family: "Prompt", sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  padding-top: 6px;
+}
+
+.user-stocks-options-button {
+  float: right;
+  font-size: 32px;
+  height: 20px;
+  background-color: white;
+  border: none;
+  margin-right: 20px;
+  margin-top: -2px;
+}
+
+.user-stocks-options-button:hover {
+  color: #21ce99;
+  cursor: pointer;
+}
+
+.user-stocks-options-button:active,
+.user-stocks-options-button:focus {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
+}
+
+.user-stocks-options-button:active {
+  color: #21ce99;
+}
+
+.user-stocks-dropdown {
+  box-shadow: -1px 4px 18px #c4c4c4;
+
+  background-color: white;
+  width: 170px;
+  height: 280px;
+  position: fixed;
+  top: 120px;
+  z-index: 9999;
+  right: 40px;
+  padding: 0px;
+  text-align: left;
+}
+
+.hidden-menu {
+  display: none;
+}
+
+.user-stocks-options-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  float: left;
+  font-weight: 100;
+  margin-left: 25px;
+  padding-top: 10px;
+}
+
+.user-stocks-options-break-line {
+  width: 100%;
+  display: block;
+  border: none;
+  height: 1px;
+  background: #f2f2f2;
+  background: -webkit-gradient(
+    radial,
+    50% 50%,
+    0,
+    50% 50%,
+    350,
+    from(#f2f2f2),
+    to(white)
+  );
+}
+
+.user-stocks-option {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  padding-left: 25px;
+  margin-top: 22px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 22px;
+}
+
+.user-stocks-option:hover {
+  color: #21ce99;
+  cursor: pointer;
+  border-left: 2px solid #21ce99;
+}

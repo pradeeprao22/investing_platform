@@ -1,0 +1,150 @@
+.login-logout-button {
+  margin-right: 35px;
+  text-decoration: none;
+  color: #21ce99;
+  font-family: "Noto Sans", sans-serif;
+  background-color: white;
+  border: none;
+  font-size: 16px;
+}
+
+.login-logout-button:hover {
+  color: #1ae9aa;
+}
+
+.free-stock-result {
+  margin-top: 70px;
+  display: none;
+  padding-bottom: 30px;
+}
+
+#player-info {
+  background-color: white;
+  width: 50%;
+  margin: 0 auto;
+  box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  height: 200px;
+  border-radius: 7px;
+  padding: 15px;
+}
+
+#free-price {
+  margin-top: 0;
+  font-family: "Mukta", sans-serif;
+  font-size: 34px;
+}
+
+#free-player-name {
+  font-family: "Noto Sans", sans-serif;
+}
+
+#free-stock-button {
+  background-color: #21ce99;
+  color: white;
+  border: none;
+  width: 88px;
+  height: 48px;
+  font-size: 17px;
+  border-radius: 10px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+#free-stock-button:hover {
+  background-color: #1ae9aa;
+  cursor: pointer;
+}
+
+#free-player-picture {
+  max-width: 200px;
+  margin-bottom: 0;
+}
+.free-stock-pop-up {
+  background-color: #171718;
+  z-index: 10;
+  color: white;
+  width: 65%;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 120px;
+  height: 350px;
+  box-shadow: 2px 2px 2px 1px #ccc;
+  padding: 10px;
+}
+
+.home-section {
+  text-align: center;
+  overflow: hidden;
+}
+
+.free-stock-button {
+  background-image: url("https://image.flaticon.com/icons/svg/1043/1043476.svg");
+  height: 100px;
+  width: 100px;
+  margin-top: 50px;
+  background-color: transparent;
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: width 0.5s ease;
+  transition: height 0.5 ease;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+#free-stock-button {
+  box-shadow: 0 0 0 0 #1ae9aa;
+  animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+.free-stock-button:focus {
+  outline: none;
+  border: none;
+}
+
+.free-stock-header {
+  color: #1ae9aa;
+  font-family: "Knewave", cursive;
+  font-size: 50px;
+}
+
+.free-stock-subtitle {
+  font-family: "Orbitron", sans-serif;
+  font-size: 17px;
+}
+
+.free-stock-button:hover {
+  width: 120px;
+  height: 120px;
+}
+
+#hide {
+  display: none;
+}
+
+#show {
+  display: block;
+}
+
+.user-stock-card {
+  margin-top: 200px;
+  overflow: hidden;
+}
+
+@-webkit-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 145px #1ae9aa;
+  }
+}
+
+.account-settings-menu {
+  color: white;
+  background-color: rgba(27, 27, 29, 1);
+  z-index: 9999;
+  position: fixed;
+  width: 296px;
+  height: 195px;
+  right: 30px;
+  top: 60px;
+  box-shadow: -1px 4px 18px gray;
+  border-radius: 3px;
+}

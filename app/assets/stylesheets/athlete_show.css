@@ -1,0 +1,167 @@
+.athlete-show-header {
+  margin-top: 125px;
+  margin-left: 110px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.athlete-show-name h1 {
+  margin-bottom: 10px;
+}
+
+.athlete-show-price {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.athlete-show-percent-change {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.athlete-show-graph {
+  width: 676px;
+  height: 250px;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+.athlete-stats-section {
+  margin-left: 110px;
+
+  margin-top: 50px;
+  width: 676px;
+  height: 350px;
+}
+
+.athlete-stats-header {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.athlete-show-break-line {
+  width: 100%;
+  display: block;
+  border: none;
+  height: 1px;
+  background: #f2f2f2;
+
+  margin-bottom: 40px;
+}
+
+.athlete-show-buy-sell {
+  width: 275px;
+  height: 375px;
+  background-color: white;
+  position: fixed;
+  right: 100px;
+  bottom: 90px;
+  z-index: 999;
+  box-shadow: -1px 4px 18px #c4c4c4;
+}
+
+.athlete-show-image-container {
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  right: 163px;
+  bottom: 465px;
+}
+
+.athlete-show-headshot {
+  max-width: 150px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.athlete-tweets-container {
+  margin-left: 110px;
+
+  margin-top: 50px;
+  width: 676px;
+  height: 300px;
+}
+
+.athlete-similar-container {
+  margin-left: 110px;
+  width: 676px;
+  height: 300px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -ms-overflow-style: none;
+}
+
+.add-watchlist-button {
+  width: 227px;
+  height: 48px;
+  background-color: transparent;
+  border: 1px solid #21ce99;
+  color: #21ce99;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 15px;
+  position: fixed;
+  right: 122px;
+  bottom: 20px;
+}
+
+.add-watchlist-button:hover {
+  border: none;
+  background-color: #21ce99;
+  color: white;
+  cursor: pointer;
+}
+
+.remove-watchlist-button {
+  width: 227px;
+  height: 48px;
+  background-color: #21ce99;
+  border: none;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 15px;
+  position: fixed;
+  right: 122px;
+  bottom: 20px;
+}
+
+.remove-watchlist-button:hover {
+  background-color: #1ae9aa;
+  cursor: pointer;
+}
+
+.athlete-show-graph-options {
+  display: flex;
+  margin-top: 0px;
+  margin-left: 70px;
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: 0px;
+}
+
+.athlete-show-graph-break-line {
+  position: absolute;
+  left: 120px;
+  width: 670px;
+  border: none;
+  background: #f2f2f2;
+  height: 1px;
+  margin-top: 0px;
+}
+
+.graph-option-sentiment {
+  margin-left: 20px;
+}
+
+.athlete-show-graph-options li:hover {
+  color: #1ae9aa;
+  cursor: pointer;
+}
+
+.option-active {
+  color: #1ae9aa;
+  border-bottom: 2px solid #1ae9aa;
+}
+
+.athlete-show-graph-options li {
+  padding-bottom: 20px;
+}
