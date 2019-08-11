@@ -1,1 +1,2 @@
-React, Rails Project
+React, Redux, Rails Project
+Users can bid on Players
